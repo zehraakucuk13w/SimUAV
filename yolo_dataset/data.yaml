@@ -1,0 +1,14 @@
+# simUAV Dataset Configuration
+# Air-to-Air UAV Detection
+
+path: /content/yolo_dataset  # Colab path (update for local)
+train: images/train
+val: images/val
+test: images/test
+
+# Class names
+names:
+  0: enemy_uav
+
+# Number of classes
+nc: 1

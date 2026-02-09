@@ -1,0 +1,22 @@
+# Ignore everything by default
+*
+
+# Whitelist (Don't ignore these)
+!*/
+!*.py
+!*.ipynb
+!README.md
+!.gitignore
+
+# Specific config files to keep
+!yolo_dataset/
+!yolo_dataset/data.yaml
+
+# Explicitly ignore large folders/files content even if folders are whitelisted
+dataset/
+yolo_dataset/images/
+yolo_dataset/labels/
+*.zip
+*.pt
+*.uproject
+*.sln
