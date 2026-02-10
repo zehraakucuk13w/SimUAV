@@ -41,9 +41,32 @@ Copy the following to `C:\Users\<username>\Documents\AirSim\settings.json`
 {
   "SettingsVersion": 1.2,
   "SimMode": "Multirotor",
+  "ViewMode": "FlyWithMe",
   "Vehicles": {
-    "Drone1": {"VehicleType": "SimpleFlight", "X": 0, "Y": 0, "Z": -2},
-    "Drone2": {"VehicleType": "SimpleFlight", "X": 4, "Y": 0, "Z": -2}
+    "Drone1": {
+      "VehicleType": "SimpleFlight",
+      "X": 0, "Y": 0, "Z": -2
+    },
+    "Drone2": {
+      "VehicleType": "SimpleFlight",
+      "X": 4, "Y": 0, "Z": -2
+    }
+  },
+  "CameraDefaults": {
+      "CaptureSettings": [
+        {
+          "ImageType": 0,
+          "Width": 640,
+          "Height": 640,
+          "FOV_Degrees": 90
+        },
+        {
+          "ImageType": 5,
+          "Width": 640,
+          "Height": 640,
+          "FOV_Degrees": 90
+        }
+      ]
   }
 }
 ```
