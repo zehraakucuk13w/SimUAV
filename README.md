@@ -1,9 +1,9 @@
-<img width="1575" height="409" alt="image" src="https://github.com/user-attachments/assets/86684d0e-53d6-4bfb-abe7-e6a0b4710371" /># SimUAV - Air-to-Air UAV Detection & Tracking
-
 Unreal Engine 4.27 + AirSim + YOLOv8 Simulation Project
 
 ## Project Overview
 Autonomous air-to-air UAV detection and tracking system using computer vision and PID control.
+
+<img width="1575" height="409" alt="image" src="https://github.com/user-attachments/assets/bbc3f1aa-321e-4d52-ab46-bf296a7841c7" />
 
 ## Features
 - YOLOv8-based real-time UAV detection
@@ -76,8 +76,6 @@ Copy the following to `C:\Users\<username>\Documents\AirSim\settings.json`
 ### Real-time Tracking
 1. Open Unreal Engine project and press Play
 2. Run: `python airsim_tracker.py`
-
-<img width="1575" height="409" alt="image" src="https://github.com/user-attachments/assets/9509bdc9-0d96-41fc-9f85-de8c4a34909a" />
 
 ### Video Demo
 1. Record: `python record_flight.py`
