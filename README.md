@@ -15,7 +15,7 @@ SimUAV is a simulation-based system that detects and pursues enemy UAVs in real 
 ```
 Unreal Engine (AirSim)  →  Drone Camera Feed  →  YOLOv8 Detection  →  PID Pursuit Controller
         ↑                                                                        |
-        └────────────────── Velocity Commands ──────────────────────────────────┘
+        └────────────────── Velocity Commands ───────────────────────────────────┘
 ```
 
 1. **Two drones** spawn in the simulation: a hunter (`Drone1`) and an enemy (`Drone2`).
