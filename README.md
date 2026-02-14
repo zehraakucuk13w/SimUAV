@@ -1,6 +1,6 @@
 # SimUAV — Air-to-Air UAV Detection & Tracking
 
-> Autonomous air-to-air UAV detection and tracking system built with **Unreal Engine 4.27**, **AirSim**, and **YOLOv8**.
+Autonomous air-to-air UAV detection and tracking system built with **Unreal Engine 4.27**, **AirSim**, and **YOLOv8**.
 
 <img width="1575" height="409" alt="image" src="https://github.com/user-attachments/assets/bbc3f1aa-321e-4d52-ab46-bf296a7841c7" />
 
