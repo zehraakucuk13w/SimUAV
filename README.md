@@ -147,16 +147,6 @@ Copy the following to `C:\Users\<username>\Documents\AirSim\settings.json`
 
 ---
 
-## Results
-
-| Metric | Score |
-|--------|-------|
-| mAP50 | 0.995 |
-| Precision | 1.000 |
-| Recall | 0.998 |
-
----
-
 ## Tech Stack
 
 | Component | Technology |
